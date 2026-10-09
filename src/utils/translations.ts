@@ -7,8 +7,8 @@ import fr from "../translations/fr";
 import it from "../translations/it";
 import nl from "../translations/nl";
 import pt from "../translations/pt";
-import sr from '../translations/sr';
-import srLatn from '../translations/sr-Latn';
+import sr from "../translations/sr";
+import srLatn from "../translations/sr-latn";
 
 const TRANSLATIONS = {
   ca,
@@ -20,7 +20,7 @@ const TRANSLATIONS = {
   nl,
   pt,
   sr,
-  'sr-Latn': srLatn,
+  "sr-Latn": srLatn,
 };
 const DEFAULT_LANGUAGE = "en";
 const DEFAULT_TRANSLATIONS = TRANSLATIONS.en;
